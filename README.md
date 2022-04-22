@@ -13,7 +13,7 @@
  Feature file <br>
  
     
-    Features.csv
+    features.csv
     
     
  model file <br>
