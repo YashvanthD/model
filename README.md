@@ -10,8 +10,11 @@ _**## Note**_
 
 **### Requirements files**
     
-    `Features.csv` <br>
-    `model.h5` <br>
-    `model.json` <br>
+    `Features.csv` 
+    
+    `model.h5`
+    
+    `model.json` 
+    
 
 
