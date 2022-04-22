@@ -1,6 +1,6 @@
 ## Model - RNN 
 
-### Data set [link]()
+### Data set [link](https://github.com/YashvanthD/Voice-Emotions-Data)
   * RAVADEES 
   * SAVEE
   * CREMA
