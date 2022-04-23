@@ -41,6 +41,22 @@
  
     print("Accuracy of our model on test data : " , loaded_model.evaluate(x_test,y_test)[1]*100 , "%")
 
+### Get back results into string format
+    
+    from sklearn.preprocessing import OneHotEncoder
+    
+    # Y is all labels from train data
+    
+    # setting Encoder
+    encoder = OneHotEncoder()
+    Y = encoder.fit_transform(np.array(Y).reshape(-1,1)).toarray()
+    
+    # get back of results int to string
+    
+    y_pred_string = encoder.inverse_transform(pred_test)
+    
+    
+    
 ### **Requirements files**
     
  Feature file <br>
